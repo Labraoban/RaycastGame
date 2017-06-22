@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{85f3eeea-c5e0-4c26-802f-62da8883c179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{980679d8-5c62-4a31-8abf-63d2f0acac65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\W_Raycaster">
+      <UniqueIdentifier>{357629e1-8369-4933-90ef-765efe73ef14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\W_Raycaster">
+      <UniqueIdentifier>{6125a2bb-9dac-4c9c-bf65-c1d16eded800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\D_Raycaster">
+      <UniqueIdentifier>{758bdfba-c0f5-4ad3-8d61-c1d1537ab6cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\W_Raycaster\RayCasting">
+      <UniqueIdentifier>{107bf95a-b873-4494-aff6-dfa1f1702cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\W_Raycaster\RayCasting">
+      <UniqueIdentifier>{23e539fa-a6dd-44f9-81f3-029aec7450ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\D_Raycaster">
+      <UniqueIdentifier>{d3ecaa8e-7e17-4528-ac87-ec855db40b55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Utility">
+      <UniqueIdentifier>{a441ccb2-bc7d-4fe1-b843-236f11a55a22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Utility">
+      <UniqueIdentifier>{c06afe4b-8862-4e5f-99a0-34f360c0f8bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{15a07696-4bd5-487b-b194-5272a0cde48c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{1cef9139-05da-4a29-8f9c-546f1e10b2ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\W_Raycaster\Level">
+      <UniqueIdentifier>{7ae3d9b8-4ec9-47a5-8026-18105f4b698f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\W_Raycaster\Level">
+      <UniqueIdentifier>{e23741d5-57c7-4a42-aa5c-30bca0287aee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States">
+      <UniqueIdentifier>{259bb4f3-b7da-44fd-9d92-0c76455d4d40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States">
+      <UniqueIdentifier>{477ee25f-16fe-4519-955e-33f49a5a601b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceLocator.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="StateHandler.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureHandler.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="TestState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="WGameState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Engine\W_Raycaster</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Header Files\Engine\W_Raycaster\RayCasting</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>Header Files\Engine\W_Raycaster\RayCasting</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>Header Files\Engine\W_Raycaster\RayCasting</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2Utility.h">
+      <Filter>Header Files\Engine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="WFrame.h">
+      <Filter>Header Files\Engine\W_Raycaster</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Header Files\Engine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Element.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Panel.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FontHandler.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Selectable.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>Header Files\Engine\W_Raycaster\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="GridLevel.h">
+      <Filter>Header Files\Engine\W_Raycaster\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="GridLevelData.h">
+      <Filter>Header Files\Engine\W_Raycaster\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="GridNode.h">
+      <Filter>Header Files\Engine\W_Raycaster\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelNode.h">
+      <Filter>Header Files\Engine\W_Raycaster\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="WObject.h">
+      <Filter>Header Files\Engine\W_Raycaster</Filter>
+    </ClInclude>
+    <ClInclude Include="WObjectHandler.h">
+      <Filter>Header Files\Engine\W_Raycaster</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RaycastGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="StateHandler.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureHandler.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="TestState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="WGameState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Engine\W_Raycaster</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Source Files\Engine\W_Raycaster\RayCasting</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray.cpp">
+      <Filter>Source Files\Engine\W_Raycaster\RayCasting</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>Source Files\Engine\W_Raycaster\RayCasting</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2Utility.cpp">
+      <Filter>Source Files\Engine\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="WFrame.cpp">
+      <Filter>Source Files\Engine\W_Raycaster</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Source Files\Engine\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Element.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Panel.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FontHandler.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Selectable.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>Source Files\Engine\W_Raycaster\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="GridLevel.cpp">
+      <Filter>Source Files\Engine\W_Raycaster\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="GridLevelData.cpp">
+      <Filter>Source Files\Engine\W_Raycaster\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="GridNode.cpp">
+      <Filter>Source Files\Engine\W_Raycaster\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelNode.cpp">
+      <Filter>Source Files\Engine\W_Raycaster\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="WObject.cpp">
+      <Filter>Source Files\Engine\W_Raycaster</Filter>
+    </ClCompile>
+    <ClCompile Include="WObjectHandler.cpp">
+      <Filter>Source Files\Engine\W_Raycaster</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
